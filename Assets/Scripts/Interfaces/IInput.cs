@@ -1,9 +1,10 @@
 ﻿using System;
+using UnityEngine;
 
 namespace Interfaces
 {
     public interface IInput
     {
-        event Action<> 
+        event Action<Vector2> SubmitInput;
     }
 }
