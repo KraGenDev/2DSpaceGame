@@ -37,8 +37,8 @@ namespace Gameplay.Environments
         {
             if (_pause) return;
 
-            var difficulty = GameProgression.Instance.Difficulty;
-            var maxDifficulty = GameProgression.Instance.MaxDifficulty;
+            var difficulty = DifficultController.Instance.Difficulty;
+            var maxDifficulty = DifficultController.Instance.MaxDifficulty;
             var mainModule = _star.main;
             mainModule.simulationSpeed = difficulty / maxDifficulty;
         }

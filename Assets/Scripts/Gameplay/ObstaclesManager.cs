@@ -60,7 +60,7 @@ namespace Gameplay
                 asteroid.transform.position = new Vector2(randomValue, _spawnPointHeigh);
                 asteroid.SetDestroyHeight(_obstacleDestroyHeight);
 
-                var delay = _obstacleSpawnDelay - GameProgression.Instance.Difficulty / 10;
+                var delay = _obstacleSpawnDelay - DifficultController.Instance.Difficulty / 10;
 
                 yield return new WaitForSeconds(delay < _minObstacleSpawnSpeed
                     ? _minObstacleSpawnSpeed 

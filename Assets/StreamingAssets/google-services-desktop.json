@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "287120649198",
+    "project_id": "spacegame-e89c5",
+    "storage_bucket": "spacegame-e89c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287120649198:android:b5af3b1b17983245a1fcff",
+        "android_client_info": {
+          "package_name": "com.KraGen.Games.SpaceGame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7iSt30nVX3wnvvAunDG6yfgH9V4s7Z4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,5 @@
-﻿using Gameplay.Player;
+﻿using Analytics;
+using Gameplay.Player;
 using TMPro;
 using UnityEngine;
 
@@ -15,6 +16,8 @@ namespace UI.Windows
             _obstaclesCounter.text = _characterInteractions != null
                 ? _characterInteractions.ObstacleTouchCount.ToString()
                 : ":(";
+            
+            GameAnalytics.Instance.Score(_characterInteractions.ObstacleTouchCount);
             base.Show();
         }
     }

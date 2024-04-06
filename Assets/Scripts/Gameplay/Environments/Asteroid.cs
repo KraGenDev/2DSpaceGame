@@ -37,7 +37,7 @@ namespace Gameplay.Environments
 
         private void ChangeFallingSpeed()
         {
-            var difficulty = GameProgression.Instance.Difficulty / 100;
+            var difficulty = DifficultController.Instance.Difficulty / 100;
             _rigidbody.gravityScale = difficulty;
         }
 

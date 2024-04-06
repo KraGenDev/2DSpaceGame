@@ -37,7 +37,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/IDamageable.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Player/CharacterInteractions.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/ObstacleTouchesCounter.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/Windows/PauseWindow.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/Window.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/AnimatedWindow.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Environments/AsteroidEffects.cs" />
@@ -48,6 +47,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Environments/StarSpeedController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Player/ShipEngines.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Systems/ApplicationController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/GameAnalitycs.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Systems/GameAnalytics.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/Windows/PauseWindow.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/DifficultController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2efyCmU7qUlNtCH1GvamOdu3weq" />
